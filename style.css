@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+.container{
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    background-color: rgb(190, 187, 181);
+    border-radius: 15px;
+    padding: 20px;
+}
+
+h2{
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    
+}
+
+label{
+    margin-bottom: 5px;
+    display: block;
+    font-size: 22px;
+    font-weight: lighter;
+}
+
+input[type="text"],
+input[type="password"]{
+    width: 95%;
+    padding: 12px;
+    border-radius: 10px;
+    border: 1px solid rgb(201, 196, 196);
+}
+
+.btn{
+    margin-top: 20px;
+    padding: 9px;
+    width: 30%;
+    border-radius: 10px;
+    border: 1px  solid rgb(201, 196, 196);
+    transition-property: all;
+    background-color: rgb(213, 238, 230);
+    font-size: 15px;
+    background-color: rgb(112, 112, 231);
+}
+.btn:hover{
+    background-color: rgb(112, 119, 117);
+    color: white;
+    width: 28%;
+    transition-duration: 1s;
+    
+}
